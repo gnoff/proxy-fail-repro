@@ -19,10 +19,5 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "typescript": "^5"
-  },
-  "pnpm": {
-    "patchedDependencies": {
-      "next@16.0.2-canary.21": "patches/next@16.0.2-canary.21.patch"
-    }
   }
 }

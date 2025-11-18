@@ -4,18 +4,13 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-patchedDependencies:
-  next@16.0.2-canary.21:
-    hash: dwci4o2dlddyb4of23i7vntcke
-    path: patches/next@16.0.2-canary.21.patch
-
 dependencies:
   '@sentry/nextjs':
     specifier: ^10.25.0
     version: 10.25.0(@opentelemetry/context-async-hooks@2.2.0)(@opentelemetry/core@2.2.0)(@opentelemetry/sdk-trace-base@2.2.0)(next@16.0.2-canary.21)(react@19.2.0)(webpack@5.102.1)
   next:
     specifier: 16.0.2-canary.21
-    version: 16.0.2-canary.21(patch_hash=dwci4o2dlddyb4of23i7vntcke)(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0)(react@19.2.0)
+    version: 16.0.2-canary.21(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0)(react@19.2.0)
   react:
     specifier: 19.2.0
     version: 19.2.0
@@ -1383,7 +1378,7 @@ packages:
       '@sentry/react': 10.25.0(react@19.2.0)
       '@sentry/vercel-edge': 10.25.0
       '@sentry/webpack-plugin': 4.6.0(webpack@5.102.1)
-      next: 16.0.2-canary.21(patch_hash=dwci4o2dlddyb4of23i7vntcke)(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0)(react@19.2.0)
+      next: 16.0.2-canary.21(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0)(react@19.2.0)
       resolve: 1.22.8
       rollup: 4.53.2
       stacktrace-parser: 0.1.11
@@ -2246,7 +2241,7 @@ packages:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
     dev: false
 
-  /next@16.0.2-canary.21(patch_hash=dwci4o2dlddyb4of23i7vntcke)(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0)(react@19.2.0):
+  /next@16.0.2-canary.21(@babel/core@7.28.5)(@opentelemetry/api@1.9.0)(react-dom@19.2.0)(react@19.2.0):
     resolution: {integrity: sha512-5tnwaV64Yh5ZBb6J3r+70lgNJ2q1tvEvqL9PyEVpxGhsGzzbjNFlRGvA7/DpHat31Jzq5Wz9kadmcP94qUEfhA==}
     engines: {node: '>=20.9.0'}
     hasBin: true
@@ -2289,7 +2284,6 @@ packages:
       - '@babel/core'
       - babel-plugin-macros
     dev: false
-    patched: true
 
   /node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
